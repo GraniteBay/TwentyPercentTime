@@ -42,6 +42,8 @@
     </div>
   </nav>
     
+     <!--Parallax--> 
+
      <!--Scrollspy-->
     
         <!--<div class="row">
@@ -76,7 +78,7 @@
         <h5 class="header col s12 light"> A friendly place for all your technology needs.</h5>
       </div>
       <div class="row center">
-        <a href="http://www.kittenrescue.org/" target="blank" id="download-button" class="btn-large waves-effect waves-light blue">Get Started</a>
+        <a href="https://www.cnet.com/" target="blank" id="download-button" class="btn-large waves-effect waves-light blue">Get Started</a>
       </div>
       <br><br>
       </div>
@@ -85,7 +87,21 @@
 <div class="progress">
       <div class="indeterminate blue"></div>
   </div>
-        
+         <div class="row">
+    <div class="col s12 m9 l10">
+      <div id="introduction" class="section scrollspy">
+        <p></p>
+      </div>
+
+      <div id="structure" class="section scrollspy">
+        <p></p>
+      </div>
+
+      <div id="initialization" class="section scrollspy">
+        <p></p>
+      </div>
+    </div> 
+
   <div class="container">
     <div class="section">
 <div class="container">
@@ -176,7 +192,8 @@
     </form>
   </div>
         <div class="center">
-        <button class="btn waves-effect waves-light blue" type="submit" name="action">Submit
+        <button class="btn waves-effect waves-light blue" type="submit" name="action"<a  onclick="Materialize.toast('Sent', 4000)"> 
+        Submit
     <i class="material-icons right">send</i>
   </button>
         </div>
@@ -218,7 +235,10 @@
   </footer>
 
 
-  <!--  Scripts--> 
+  <!--  Scripts-->
+  <script> 
+  Materialize.toast('I am a toast!', 4000)
+  </script>
 
  <script  $(document).ready(function(){
     $('.scrollspy').scrollSpy();
