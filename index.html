@@ -3,20 +3,36 @@
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0"/>
-  <title>Home</title>
-
+    
+ 
+  <title>Starter Template - Materialize</title>
 
   <!-- CSS  -->
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
-  <link href="css/style.cssw" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
 </head>
+
+    <div class="brown lighten-4">
 <body>
-<div class="green darken-4">
-  <nav class="white green-text text-darken-4" role="navigation">
-    <div class="nav-wrapper container"><a id="logo-container" href="#" class="brand-logo green-text text-darken-4">Shaw</a>
+   <nav class="blue" role="navigation">
+    <!--search bar--> 
+       <div class="nav-wrapper">
+      <form>
+        <div class="input-field">
+          <input id="search" type="search" required>
+          <label for="search"><i class="material-icons">search</i></label>
+          <i class="material-icons">close</i>
+        </div>
+      </form>
+    </div>
+    </nav>  
+
+    
+  <nav class="blue s12 m6" role="navigation">
+          <div class="nav-wrapper container"><a id="logo-container" href="#" class="brand-logo" >Logo</a>
       <ul class="right hide-on-med-and-down">
-        <li><a class="green-text text-darken-4"href="https://www.google.com/url?sa=i&rct=j&q=&esrc=s&source=images&cd=&cad=rja&uact=8&ved=0ahUKEwjaj5j0je7LAhVI8WMKHWbgA1UQjRwIBw&url=http%3A%2F%2Fwww.giantbomb.com%2Fwheel%2F3055-1210%2Fobjects%2F&bvm=bv.118443451,d.cGc&psig=AFQjCNH7o7T-UuORv1nL6NmJNDi0FoE0uQ&ust=1459623097181805">#shaws</a></li>
+        <li><a href="#">Navbar Link</a></li>
       </ul>
 
       <ul id="nav-mobile" class="side-nav">
@@ -25,106 +41,193 @@
       <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
     </div>
   </nav>
+    
+     <!--Scrollspy-->
+    
+        <!--<div class="row">
+    <div class="col s12 m9 l10">
+      <div id="introduction" class="section scrollspy">
+        <p>Content </p>
+      </div>
+
+      <div id="structure" class="section scrollspy">
+        <p>Content </p>
+      </div>
+
+      <div id="initialization" class="section scrollspy">
+        <p>Content </p>
+      </div>
+    </div>--> 
+
+    <div class="col hide-on-small-only m3 l2">
+      <ul class="section table-of-contents right">
+        <li><a href="#introduction">Introduction</a></li>
+        <li><a href="#structure">Structure</a></li>
+        <li><a href="#initialization">Intialization</a></li>
+      </ul>
+    </div>
+  
+    
   <div class="section no-pad-bot" id="index-banner">
     <div class="container">
       <br><br>
-      <h1 class="header center white-text">Rick's Pawn Shop</h1>
+      <h1 class="header center light black-text">California Technology</h1>
       <div class="row center">
-        <h5 class="header col s12 white-text light">The best just got a whole lot better!</h5>
+        <h5 class="header col s12 light"> A friendly place for all your technology needs.</h5>
       </div>
       <div class="row center">
-        <a href="" id="download-button" target="blank" class="btn-large waves-effect waves-light blue z-depth-5">Get Started</a>
+        <a href="http://www.kittenrescue.org/" target="blank" id="download-button" class="btn-large waves-effect waves-light blue">Get Started</a>
       </div>
       <br><br>
+      </div>
 
-    </div>
+        
+<div class="progress">
+      <div class="indeterminate blue"></div>
   </div>
-
-  
+        
   <div class="container">
-
-    
-
     <div class="section">
-
+<div class="container">
       <!--   Icon Section   -->
       <div class="row">
-        <div class="col s12 m4">
+        <div class="col s12 m4 l4">
+            <div class="card-panel medium white z-depth-5">
           <div class="icon-block">
-            <h2 class="center light-blue-text"><i class="large material-icons">grade</i></h2>
-            <h5 class="center white-text">Best in-class customer service</h5>
+            <h2 class="center black-text"><i class="material-icons">search</i></h2>
+            <h5 class="center blue-text">Speeds up development</h5>
 
-            <p class="white-text light">We treat customers like our very own, whether we may assist you in a technical problem, answer any questions you have, or build your custom Rickshaw, you can count on us!</p>
+            <p>We did most of the heavy lifting for you to provide a default stylings that incorporate our custom components. Sit back and enjoy our website's unbeatable functionality.</p>
           </div>
         </div>
+          </div>
 
-        <div class="col s12 m4">
+        <div class="col s12 m4 l4">
+            <div class="card-panel medium white z-depth-5">
           <div class="icon-block">
-            <h2 class="center light-blue-text"><i class="large material-icons">verified_user</i></h2>
-            <h5 class="center white-text">Safe & Secure</h5>
+            <h2 class="center blue-text"><i class="material-icons">computer</i></h2>
+            <h5 class="center blue-text">User Experience Focused</h5>
 
-            <p class="white-text light">By utilizing elements and principles of Material Design, we were able to create a framework that incorporates components and animations that provide more feedback to users. Additionally, a single underlying responsive system across all platforms allow for a more unified user experience.</p>
+            <p>By utilizing elements and principles of Material Design, we were able to create a framework that incorporates components and animations that provide more feedback to users.</p>
           </div>
         </div>
-
-        <div class="col s12 m4">
+          </div>
+        <div class="col s12 m4 l4">
+            <div class="card-panel medium white z-depth-5">
           <div class="icon-block">
-            <h2 class="center light-blue-text"><i class="large material-icons">assessment</i></h2>
-            <h5 class="center white-text">Nobody Better</h5>
+            <h2 class="center yellow-text"><i class="material-icons">star</i></h2>
+            <h5 class="center blue-text">Easy to work with</h5>
 
-            <p class="white-text light">Not only do we guarantee your satisfaction with our products, we also price match. Look around, nobody comes close to Shawlimar!.</p>
+            <p>We have provided detailed documentation as well as specific code examples to help new users get started. We are also always open to feedback and can answer any questions a user may have about Materialize.</p>
           </div>
         </div>
       </div>
-
+        </div>
     </div>
     <br><br>
+      </div>
+  <div class="row center">
+        <!-- Dropdown Trigger -->
+  <a class='dropdown-button btn blue' href='#' data-activates='dropdown1'>Quick Links</a>
 
+  <!-- Dropdown Structure -->
+  <ul id='dropdown1' class='dropdown-content'>
+    <li><a href="https://en.wikipedia.org/wiki/Integrated_development_environment" target="blank" >IDEs</a></li>
+    
+      <li><a href="https://www.cmu.edu/teaching/designteach/design/instructionalstrategies/groupprojects/benefits.html" target="blank">Group Work</a></li>
+    
+    <li><a href="https://netdispatcher.com/2015/05/11/study-says-ease-of-use-is-very-important/" target="blank">Ease of use</a></li>
+  </ul>
+      </div>
+        </div>
+        </div>
+        <!--Form-->
+        
     <div class="section">
 
     </div>
   </div>
-
-  <footer class="page-footer white">
+    </div>
+    <div class="row">
+    <form class="col s12">
+      <div class="row">
+        <div class="input-field col s6">
+          <input id="first_name" type="text" class="validate">
+          <label for="first_name">First Name</label>
+        </div>
+        <div class="input-field col s6">
+          <input id="last_name" type="text" class="validate">
+          <label for="last_name">Last Name</label>
+        </div>
+      </div>
+      
+      <div class="row">
+        <div class="input-field col s12">
+          <input id="password" type="password" class="validate">
+          <label for="passwrod">Username</label>
+        </div>
+      </div>
+      <div class="row">
+        <div class="input-field col s12">
+          <input id="email" type="email" class="validate">
+          <label for="email">Email</label>
+        </div>
+      </div>
+    </form>
+  </div>
+        <div class="center">
+        <button class="btn waves-effect waves-light blue" type="submit" name="action">Submit
+    <i class="material-icons right">send</i>
+  </button>
+        </div>
+    
+  <footer class="page-footer blue">
     <div class="container">
       <div class="row">
         <div class="col l6 s12">
-          <h5 class="green-text center text-darken-4">A little bit about us</h5>
-          <p class="green-text text-darken-4">We are a group of Granite Bay High School students who were inspired to make a website in our class of GBIT. All of us are of the Pakistani background, which is reperesented in the colors of the website and also the major service we provide.</p>
+          <h5 class="white-text">What we do</h5>
+          <p class="grey-text text-lighten-4">This website's primary goal is to provide quality information on technology and the progress of it. Any funds donated would be greatly appreciated. </p>
 
 
         </div>
         <div class="col l3 s12">
-          <h5 class="green-text text-darken-4">Follow us online</h5>
+          <h5 class="white-text">Settings</h5>
           <ul>
-            <li><a class="green-text text-darken-4" href="#!">Link 1</a></li>
-            <li><a class="green-text text-darken-4" href="#!">Link 2</a></li>
-            <li><a class="green-text text-darken-4" href="#!">Link 3</a></li>
-            <li><a class="green-text text-darken-4" href="#!">Link 4</a></li>
+            <li><a class="white-text" href="#!">Link 1</a></li>
+            <li><a class="white-text" href="#!">Link 2</a></li>
+            <li><a class="white-text" href="#!">Link 3</a></li>
+            <li><a class="white-text" href="#!">Link 4</a></li>
           </ul>
         </div>
         <div class="col l3 s12">
-          <h5 class="green-text text-darken-4">Careers</h5>
+          <h5 class="white-text">Connect</h5>
           <ul>
-            <li><a class="green-text text-darken-4" href="#!">Link 1</a></li>
-            <li><a class="green-text text-darken-4" href="#!">Link 2</a></li>
-            <li><a class="green-text text-darken-4" href="#!">Link 3</a></li>
-            <li><a class="green-text text-darken-4" href="#!">Link 4</a></li>
+            <li><a class="white-text" href="#!">Link 1</a></li>
+            <li><a class="white-text" href="#!">Link 2</a></li>
+            <li><a class="white-text" href="#!">Link 3</a></li>
+            <li><a class="white-text" href="#!">Link 4</a></li>
           </ul>
         </div>
       </div>
     </div>
     <div class="footer-copyright">
-      <div class="container green-text text-darken-4">
-      Made by <a class="green-text text-darken-4" href="http://materializecss.com">Materialize</a> and edited by the development team.
+      <div class="container">
+      Made by <a class="orange-text text-lighten-3" href="http://materializecss.com">Materialize</a>
       </div>
     </div>
   </footer>
-  </div>
 
 
-  <!--  Scripts-->
-  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <!--  Scripts--> 
+
+ <script  $(document).ready(function(){
+    $('.scrollspy').scrollSpy();
+  });></script>
+        
+  <script src="https://code.jquery.com/jquery-2.1.1.min.js" >
+         $(document).ready(function(){
+    $('.scrollspy').scrollSpy();
+  });</script>
   <script src="js/materialize.js"></script>
   <script src="js/init.js"></script>
 
