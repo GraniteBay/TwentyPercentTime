@@ -63,9 +63,7 @@
 
     <div class="col hide-on-small-only m3 l2">
       <ul class="section table-of-contents right">
-        <li><a href="#introduction">Introduction</a></li>
-        <li><a href="#structure">Structure</a></li>
-        <li><a href="#initialization">Intialization</a></li>
+        <li><a href="#introduction">What We Do</a></li>
       </ul>
     </div>
   
@@ -78,7 +76,7 @@
         <h5 class="header col s12 light"> A friendly place for all your technology needs.</h5>
       </div>
       <div class="row center">
-        <a href="https://www.cnet.com/" target="blank" id="download-button" class="btn-large waves-effect waves-light blue">Get Started</a>
+        <a href="https://www.cnet.com/" id="download-button" onClick= "goSomewhere(); return false;" target="_blank" class="btn-large waves-effect waves-light blue">Get Started</a>
       </div>
       <br><br>
       </div>
@@ -179,8 +177,8 @@
       
       <div class="row">
         <div class="input-field col s12">
-          <input id="password" type="password" class="validate">
-          <label for="passwrod">Username</label>
+          <input id="password" type="text" class="validate">
+          <label for="passwrod">Link</label>
         </div>
       </div>
       <div class="row">
@@ -231,11 +229,37 @@
       <div class="container">
       Made by <a class="orange-text text-lighten-3" href="http://materializecss.com">Materialize</a>
       </div>
-    </div>
+    </div> I am
   </footer>
 
 
   <!--  Scripts-->
+	<script type="text/javascript" target="_blank">
+    var urls = [
+        "https://www.cnet.com/",
+        'https://techcrunch.com/',
+        'https://www.engadget.com/',
+        'http://thenextweb.com/',
+        'https://www.wired.com/',
+        'http://gizmodo.com/',
+        'http://www.techradar.com/',
+        'http://mashable.com/',
+        'http://www.theverge.com/',
+        'http://computerworld.com/',
+        'http://www.digitaltrends.com/',
+        'http://www.extremetech.com/',
+        'http://www.geek.com/',
+        'http://zdnet.com/',
+        'http://www.ghacks.net/',
+        
+    ];
+
+    function goSomewhere() {
+        var url = urls[Math.floor(Math.random()*urls.length)];
+        window.location = url; // redirect
+    }
+</script>
+
   <script> 
   Materialize.toast('I am a toast!', 4000)
   </script>
